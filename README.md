@@ -52,6 +52,9 @@ alter table student add department varchar(15);
 
 OUTPUT :
 
+
+
+
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d2.png)
 
 QUERY :
@@ -63,6 +66,9 @@ drop table student;
 
 
 OUTPUT :
+
+
+
 
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d3.png)
 
@@ -87,6 +93,9 @@ rename table student to mystudent;
 
 
 OUTPUT :
+
+
+
 
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d5.png)
 
