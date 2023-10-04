@@ -26,7 +26,7 @@ SQL QUERY :
 create table student(rollno numeric(10),name char(10),age numeric(5),address varchar(25),phoneno numeric(15));
 
 OUTPUT :
-D11
+![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d1.png)
 
 Query :
 Change the above student table by adding another attribute department.
