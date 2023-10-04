@@ -41,41 +41,51 @@ create table student(rollno numeric(10),name char(10),age numeric(5),address var
 OUTPUT :
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d1.png)
 
+
 Query :
 Change the above student table by adding another attribute department.
 
 SQL QUERY :
 alter table student add department varchar(15);
 
+
 OUTPUT :
-D12
+![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d2.png)
 
 QUERY :
 Drop the student table.
 
+
 SQL QUERY :
 drop table student;
 
+
 OUTPUT :
-D13
+![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d3.png)
 
 QUERY :
 Delete the student table using truncate keyword.
 
+
 SQL QUERY :
 truncate table student;
 
-OUTPUT :
-D14
 
-QUERY ::
+OUTPUT :
+![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d4.png)
+
+QUERY :
 Rename the student table to mystudent.
+
 
 SQL QUERY :
 rename table student to mystudent;
 
+
 OUTPUT :
-D15
+![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d5.png)
+
+
 
 RESULT :
 The queries got the output and statifies the given question.
