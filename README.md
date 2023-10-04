@@ -39,6 +39,7 @@ create table student(rollno numeric(10),name char(10),age numeric(5),address var
 
 
 OUTPUT :
+
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d1.png)
 
 
@@ -50,6 +51,7 @@ alter table student add department varchar(15);
 
 
 OUTPUT :
+
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d2.png)
 
 QUERY :
@@ -61,6 +63,7 @@ drop table student;
 
 
 OUTPUT :
+
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d3.png)
 
 QUERY :
@@ -72,6 +75,7 @@ truncate table student;
 
 
 OUTPUT :
+
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d4.png)
 
 QUERY :
@@ -83,6 +87,7 @@ rename table student to mystudent;
 
 
 OUTPUT :
+
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d5.png)
 
 
