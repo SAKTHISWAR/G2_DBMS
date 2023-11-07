@@ -1,17 +1,17 @@
 # G2_DBMS
 
 
-EXP NO 1: DATA DEFINITION LANGUAGE COMMANDS IN RDBMS
+## EXP NO 1: DATA DEFINITION LANGUAGE COMMANDS IN RDBMS
 
 ### DATE : 4/8/23
-AIM :
+### AIM :
 To create a student database and execute DDL queries using SQL.
 
 DDL (Data Definition Language) :
 
 DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database. DDL is a set of SQL commands used to create, modify, and delete database structures but not data. These commands are normally not used by a general user, who should be accessing the database via an application.
 
-List of DDL commands :
+### List of DDL commands :
 CREATE: This command is used to create the database or its objects (like table, index, function, views, store procedure, and triggers).
 
 
@@ -39,7 +39,7 @@ SQL QUERY :
 create table student(rollno numeric(10),name char(10),age numeric(5),address varchar(25),phoneno numeric(15));
 
 
-OUTPUT :
+### OUTPUT :
 
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d1.png)
 
@@ -51,7 +51,7 @@ SQL QUERY :
 alter table student add department varchar(15);
 
 
-OUTPUT :
+### OUTPUT :
 
 
 
@@ -66,7 +66,7 @@ SQL QUERY :
 drop table student;
 
 
-OUTPUT :
+### OUTPUT :
 
 
 
@@ -81,7 +81,7 @@ SQL QUERY :
 truncate table student;
 
 
-OUTPUT :
+### OUTPUT :
 
 ![image](https://github.com/SAKTHISWAR/G2_DBMS/blob/main/d4.png)
 
@@ -93,7 +93,7 @@ SQL QUERY :
 rename table student to mystudent;
 
 
-OUTPUT :
+### OUTPUT :
 
 
 
